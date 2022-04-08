@@ -73,8 +73,9 @@ Light grayish blue: hsl(210, 46%, 95%)
     background-color: hsl(263, 55%, 52%) ;
     background-image: url(/Users/bonniewilson/repos/testimonials-grid-section-main/images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
-    background-size: 45%;
-    background-position: top right;
+   
+    background-size: 13vmax;
+    /* background-position: top right; */
     background-position-x: 80%;
 }
 #first img{
@@ -105,6 +106,7 @@ body {
    background-color: hsl(210, 46%, 95%);
    font-family: 'Barlow Semi Condensed', sans-serif; 
    font-size: 13px;
+   
 
 }
 
@@ -150,4 +152,109 @@ h2 {
     font-size: .8em;
 }
 
+/* DESKTOP LAYOUT */
+@media screen and (min-width:1000px) {
+    body {
+        display: flex;
+        
+        margin: 100px;
+    }
+    .testimonial-box {
+        padding: 20px;
+        margin: 20px 10px 0 20px;
+        box-sizing: border-box;
+    }
+    .left {
+        flex: 3.4;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    }
+    .right {
+        flex: 1 0 1%;
+        min-height: 100vh;
+        box-sizing: border-box;
+        
+       
+    }
+    .left-top {
+        display: flex;
+        flex-direction: row;
+        
+        
+        
+    }
+    .left-bottom {
+        display: flex;
+        flex-direction: row;
+        
+       
+    }
+    #first {
+        flex: 3;
+    }
+    #second {
+        flex: 1;
+    }
+}
+    /* body {
+        display: flex;
+        align-items: flex-start;
+    }
+    .left-top {
+        flex-wrap: wrap;
+        flex: 1;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .left-bottom {
+
+    }
+    .right {
+        flex: 0 0 30%;
+        justify-content: stretch;
+
+    }
+    #first, #second, #third, #fourth {
+
+    }
+    /* .left {
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }*/
+
+  /* .testimonial-box {
+      box-sizing: border-box;
+      padding: 3%;
+
+  }
+
+    #first {
+        flex: 2 0 60%;
+        padding: 2%;
+        box-sizing: border-box;
+
+    }
+    #second {
+        flex:1 0 20%; 
+    }
+    #third {
+        flex:1;
+    }
+    #fourth {
+        flex:2;
+    } 
+         */
+         
+    
+    /* .right {
+        display: flex;
+        max-width: 50vw;
+    
+
+    } */
+  
 
