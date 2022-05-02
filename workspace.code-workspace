@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../testimonials-grid-section-main/design"
+		},
+		{
+			"path": "../testimonials-grid-section-main/images"
+		},
+		{
+			"path": "../testimonials-grid-section-main/guides"
+		}
+	],
+	"settings": {}
+}
